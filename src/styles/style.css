@@ -1,0 +1,36 @@
+@import url("./reset.css");
+
+body{
+    background: linear-gradient(#000000, #017201);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: rgb(131, 79, 2);
+}
+#menu div{
+    text-align: center;
+    margin: 5px;
+}
+#box {
+    width: 308px;
+    display: flex;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.square {
+    border: 1px solid black;
+    background-color: #017201;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.enemy{
+    background-image: url("../images/diglet.png");
+    background-size: cover;
+}
